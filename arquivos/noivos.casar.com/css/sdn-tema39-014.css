@@ -1,0 +1,331 @@
+body {padding-top: 0}
+.sdn-wrapper {font-family: Sintony, Arial, sans-serif;}
+.sdn-menu, .sdn-wrapper-content {font-size: 14px}
+.sdn-content {color: #393939}
+
+.sdn-topo #home-scroll {position: absolute; top: -10px}
+
+#mobile-menu-principal {background: none}
+#mobile-menu-principal .navbar-toggle {background-color: rgba(0, 0, 0, 0.9)}
+.sdn-menu {padding: 9px 0; text-align: center}
+.sdn-menu ul {margin-bottom: 0}
+.sdn-menu ul > li {line-height: 0.9 !important; padding: 0}
+.sdn-menu ul > li > a {color: #fff; display: inline-block; padding: 8px}
+
+.sdn-topo {text-align: center}
+.sdn-topo .detalhes {line-height: 1.2; margin-top: 10px}
+.sdn-topo .fundo {background-position: center center; background-size: cover; height: 36.5vw; max-height: 500px; min-height: 160px}
+.sdn-topo .noivos {display: inline-block; max-width: 100%; min-width: 200px; position: relative}
+.sdn-topo .noivos:before, .sdn-topo .noivos:after {position: absolute}
+
+.section-foto-extra {background-position: center center; background-size: cover; background-repeat: no-repeat; height: 36.5vw; max-height: 500px; min-height: 160px}
+
+body .sdn-wrapper-content .sdn-titulo-pagina {position: relative}
+.sdn-titulo-pagina {margin-bottom: 50px !important; text-align: center !important}
+.sdn-titulo-pagina:before, .sdn-titulo-pagina:after {font-size: 17px; position: absolute; top: 115%}
+.sdn-titulo-pagina:before {right: 50.5%}
+.sdn-titulo-pagina:after {left: 50.5%}
+
+/* icones */
+
+body.custom-icone1-1 .sdn-topo .noivos:before {content: "\e90f"; font-size: 39px; left: -99px; top: 25px}
+body.custom-icone1-1 .sdn-topo .noivos:after {content: "\e910"; font-size: 39px; right: -99px; top: 25px}
+body.custom-icone1-1 .sdn-titulo-pagina:before {content: "\e900"}
+body.custom-icone1-1 .sdn-titulo-pagina:after {content: "\e901"}
+
+body.custom-icone1-2 .sdn-topo .noivos:before {content: "\e911"; font-size: 50px; left: -99px; top: 38px}
+body.custom-icone1-2 .sdn-topo .noivos:after {content: "\e912"; font-size: 50px; right: -99px; top: 38px}
+body.custom-icone1-2 .sdn-titulo-pagina:before {content: "\e902"}
+body.custom-icone1-2 .sdn-titulo-pagina:after {content: "\e903"}
+
+body.custom-icone1-3 .sdn-topo .noivos:before {content: "\e913"; font-size: 49px; left: -99px; top: 38px}
+body.custom-icone1-3 .sdn-topo .noivos:after {content: "\e914"; font-size: 49px; right: -99px; top: 38px}
+body.custom-icone1-3 .sdn-titulo-pagina:before {content: "\e904"}
+body.custom-icone1-3 .sdn-titulo-pagina:after {content: "\e905"}
+
+body.custom-icone1-4 .sdn-topo .noivos:before {content: "\e915"; font-size: 45px; left: -99px; top: 40px}
+body.custom-icone1-4 .sdn-topo .noivos:after {content: "\e916"; font-size: 45px; right: -99px; top: 40px}
+body.custom-icone1-4 .sdn-titulo-pagina:before {content: "\e906"}
+body.custom-icone1-4 .sdn-titulo-pagina:after {content: "\e907"}
+
+body.custom-icone1-5 .sdn-topo .noivos:before {content: "\e917"; font-size: 58px; left: -99px; top: 30px}
+body.custom-icone1-5 .sdn-topo .noivos:after {content: "\e918"; font-size: 58px; right: -99px; top: 30px}
+body.custom-icone1-5 .sdn-titulo-pagina:before {content: "\e908"}
+body.custom-icone1-5 .sdn-titulo-pagina:after {content: "\e909"}
+
+body.custom-icone1-6 .sdn-topo .noivos:before {content: "\e919"; font-size: 51px; left: -99px; top: 40px}
+body.custom-icone1-6 .sdn-topo .noivos:after {content: "\e91a"; font-size: 51px; right: -99px; top: 40px}
+body.custom-icone1-6 .sdn-titulo-pagina:before {content: "\e90a"; display: none}
+body.custom-icone1-6 .sdn-titulo-pagina:after {content: "\e90a"; left: 0; right: 0}
+body.custom-icone1-6 .sdn-titulo-pagina:before, body.custom-icone1-6 .sdn-titulo-pagina:after {font-size: 7px}
+
+body.custom-icone1-7 .sdn-topo .noivos:before {content: "\e91b"; font-size: 28px; left: -99px; top: 43px}
+body.custom-icone1-7 .sdn-topo .noivos:after {content: "\e91c"; font-size: 28px; right: -99px; top: 43px}
+body.custom-icone1-7 .sdn-titulo-pagina:after {content: "\e90b"; display: block; font-size: 20px; left: 0; position: relative; right: 0}
+
+body.custom-icone1-8 .sdn-topo .noivos:before {content: "\e91d"; font-size: 46px; left: -99px; top: 42px}
+body.custom-icone1-8 .sdn-topo .noivos:after {content: "\e91e"; font-size: 46px; right: -99px; top: 42px}
+body.custom-icone1-8 .sdn-titulo-pagina:after {content: "\e90c"; font-size: 11px; left: 0; right: 0}
+
+body.custom-icone1-9 .sdn-topo .noivos:before {content: "\e91f"; font-size: 9px; left: -99px; top: 51px}
+body.custom-icone1-9 .sdn-topo .noivos:after {content: "\e920"; font-size: 9px; right: -99px; top: 51px}
+body.custom-icone1-9 .sdn-titulo-pagina:after {content: "\e90d"; display: block; font-size: 12px; left: initial !important; position: relative}
+
+body.custom-icone1-10 .sdn-topo .noivos:before {content: "\e921"; font-size: 47px; left: -99px; top: 42px}
+body.custom-icone1-10 .sdn-topo .noivos:after {content: "\e922"; font-size: 47px; right: -99px; top: 42px}
+body.custom-icone1-10 .sdn-titulo-pagina:after {content: "\e90e"; font-size: 21px; left: 0; right: 0}
+
+/* fonte1 size */
+
+body.custom-fonte1-1 .sdn-topo  {font-family: 'Rouge Script'}
+body.custom-fonte1-1 .sdn-topo .noivos, body.custom-fonte1-1 .sdn-titulo-pagina {font-size: 30px}
+body.custom-fonte1-1 .sdn-topo .data {font-size: 28px}
+
+body.custom-fonte1-2 .sdn-topo  {font-family: 'Tragic Marker'}
+body.custom-fonte1-2 .sdn-topo .noivos, body.custom-fonte1-2 .sdn-titulo-pagina {font-size: 28px}
+body.custom-fonte1-2 .sdn-topo .data {font-size: 23px}
+
+body.custom-fonte1-3 .sdn-topo  {font-family: 'The Heart Everything'}
+body.custom-fonte1-3 .sdn-topo .noivos, body.custom-fonte1-3 .sdn-titulo-pagina {font-size: 27px}
+body.custom-fonte1-3 .sdn-topo .data {font-size: 21px}
+
+body.custom-fonte1-4 .sdn-topo  {font-family: 'Sweet Pea'}
+body.custom-fonte1-4 .sdn-topo .noivos, body.custom-fonte1-4 .sdn-titulo-pagina {font-size: 27px}
+body.custom-fonte1-4 .sdn-topo .data {font-size: 22px}
+
+body.custom-fonte1-5 .sdn-topo  {font-family: 'Smoothie Shoppe'}
+body.custom-fonte1-5 .sdn-topo .noivos, body.custom-fonte1-5 .sdn-titulo-pagina {font-size: 28px}
+body.custom-fonte1-5 .sdn-topo .data {font-size: 22px}
+
+body.custom-fonte1-6 .sdn-topo  {font-family: 'Sofia'}
+body.custom-fonte1-6 .sdn-topo .noivos, body.custom-fonte1-6 .sdn-titulo-pagina {font-size: 25px}
+body.custom-fonte1-6 .sdn-topo .data {font-size: 15px}
+
+body.custom-fonte1-7 .sdn-topo  {font-family: 'Amatic Bold'}
+body.custom-fonte1-7 .sdn-topo .noivos, body.custom-fonte1-7 .sdn-titulo-pagina {font-size: 40px}
+body.custom-fonte1-7 .sdn-topo .data {font-size: 30px}
+
+body.custom-fonte1-8 .sdn-topo  {font-family: 'Ambarella'}
+body.custom-fonte1-8 .sdn-topo .noivos, body.custom-fonte1-8 .sdn-titulo-pagina {font-size: 30px}
+body.custom-fonte1-8 .sdn-topo .data {font-size: 25px}
+
+body.custom-fonte1-9 .sdn-topo  {font-family: 'Affogato'}
+body.custom-fonte1-9 .sdn-topo .noivos, body.custom-fonte1-9 .sdn-titulo-pagina {font-size: 30px}
+body.custom-fonte1-9 .sdn-topo .data {font-size: 25px}
+
+body.custom-fonte1-10 .sdn-topo  {font-family: 'Dancing Script'}
+body.custom-fonte1-10 .sdn-topo .noivos, body.custom-fonte1-10 .sdn-titulo-pagina {font-size: 30px}
+body.custom-fonte1-10 .sdn-topo .data {font-size: 20px}
+
+.sdn-one-page-section .button-editar {margin-top: 70px}
+
+@media (min-width: 768px) {
+  .sdn-menu.desktop {background-color: rgba(255, 255, 255, 0.7); left: 0; position: absolute; right: 0; z-index: 1}
+  body.sdn-menu-fixed .sdn-menu.desktop {background-color: rgba(255, 255, 255, 0.9); -webkit-box-shadow: 0px 10px 5px -4px rgba(204,204,204,0.5); -moz-box-shadow: 0px 10px 5px -4px rgba(204,204,204,0.5); box-shadow: 0px 10px 5px -4px rgba(204,204,204,0.5)}
+  body .sdn-menu.desktop.no-links {display: none !important}
+  .sdn-menu ul > li > a {color: #393939}
+  /*body.sdn-menu-fixed {padding-top: 45px}*/
+
+  .sdn-topo #home-scroll {top: -50px}
+
+  .sdn-topo .detalhes {margin-top: 20px}
+
+  .sdn-menu, .sdn-wrapper-content {font-size: 17px}
+  .sdn-titulo-pagina:before, .sdn-titulo-pagina:after {font-size: 31px}
+  /*
+  .sdn-titulo-pagina:before {display: block; left: 0}
+  .sdn-titulo-pagina:after {right: 0}
+  */
+
+  /* icones */
+
+  body.custom-icone1-1 .sdn-topo .noivos,
+  body.custom-icone1-2 .sdn-topo .noivos,
+  body.custom-icone1-3 .sdn-topo .noivos,
+  body.custom-icone1-4 .sdn-topo .noivos,
+  body.custom-icone1-5 .sdn-topo .noivos,
+  body.custom-icone1-6 .sdn-topo .noivos,
+  body.custom-icone1-7 .sdn-topo .noivos,
+  body.custom-icone1-8 .sdn-topo .noivos,
+  body.custom-icone1-9 .sdn-topo .noivos,
+  body.custom-icone1-10 .sdn-topo .noivos {width: 750px}
+
+  .sdn-titulo-pagina {margin-bottom: 65px !important}
+  /*
+  .sdn-titulo-pagina:before {right: initial}
+  .sdn-titulo-pagina:after {left: initial}
+  .sdn-titulo-pagina:before, .sdn-titulo-pagina:after {top: 30%}
+  */
+
+  body.custom-icone1-1 .sdn-topo .noivos:before {font-size: 70px; left: 15px; top: 45px}
+  body.custom-icone1-1 .sdn-topo .noivos:after {font-size: 70px; right: 15px; top: 45px}
+  body.custom-icone1-1 .sdn-titulo-pagina:before, body.custom-icone1-1 .sdn-titulo-pagina:after {font-size: 23px}
+
+  body.custom-icone1-2 .sdn-topo .noivos:before {font-size: 100px; left: 0; top: 20px}
+  body.custom-icone1-2 .sdn-topo .noivos:after {font-size: 100px; right: 0; top: 20px}
+
+  body.custom-icone1-3 .sdn-topo .noivos:before {font-size: 97px; left: 0; top: 20px}
+  body.custom-icone1-3 .sdn-topo .noivos:after {font-size: 97px; right: 0; top: 20px}
+
+  body.custom-icone1-4 .sdn-topo .noivos:before {font-size: 97px; left: 0; top: 20px}
+  body.custom-icone1-4 .sdn-topo .noivos:after {font-size: 97px; right: 0; top: 20px}
+
+  body.custom-icone1-5 .sdn-topo .noivos:before {font-size: 97px; left: -10px; top: 20px}
+  body.custom-icone1-5 .sdn-topo .noivos:after {font-size: 97px; right: -10px; top: 20px}
+
+  body.custom-icone1-6 .sdn-topo .noivos:before {font-size: 97px; left: -10px; top: 20px}
+  body.custom-icone1-6 .sdn-topo .noivos:after {font-size: 97px; right: -10px; top: 20px}
+  /*
+  body.custom-icone1-6 .sdn-titulo-pagina:before {display: block; font-size: 9px; left: 0; right: initial}
+  body.custom-icone1-6 .sdn-titulo-pagina:after {font-size: 9px; left: initial; right: 0}
+  */
+
+  body.custom-icone1-7 .sdn-topo .noivos:before {font-size: 41px; left: 0; right: initial; top: 70px}
+  body.custom-icone1-7 .sdn-topo .noivos:after {font-size: 41px; left: initial; right: 0; top: 70px}
+
+  body.custom-icone1-8 .sdn-topo .noivos:before {font-size: 77px; left: 0; top: 40px}
+  body.custom-icone1-8 .sdn-topo .noivos:after {font-size: 77px; right: 0; top: 40px}
+  body.custom-icone1-8 .sdn-titulo-pagina:after {display: block; font-size: 13px; position: relative}
+
+  body.custom-icone1-9 .sdn-topo .noivos:before {font-size: 20px; left: 5px; right: initial; top: 90px}
+  body.custom-icone1-9 .sdn-topo .noivos:after {font-size: 20px; left: initial; right: 5px; top: 90px}
+  body.custom-icone1-9 .sdn-titulo-pagina:after {font-size: 15px}
+
+  body.custom-icone1-10 .sdn-topo .noivos:before {font-size: 97px; left: -10px; top: 20px}
+  body.custom-icone1-10 .sdn-topo .noivos:after {font-size: 97px; right: -10px; top: 20px}
+  body.custom-icone1-10 .sdn-titulo-pagina:after {display: block; font-size: 33px; position: relative}
+
+  /* fonte1 size */
+
+  body.custom-fonte1-1 .sdn-topo .noivos, body.custom-fonte1-1 .sdn-titulo-pagina {font-size: 60px}
+  body.custom-fonte1-1 .sdn-topo .data {font-size: 42px}
+
+  body.custom-fonte1-2 .sdn-topo .noivos, body.custom-fonte1-2 .sdn-titulo-pagina {font-size: 50px}
+  body.custom-fonte1-2 .sdn-topo .data {font-size: 36px}
+
+  body.custom-fonte1-3 .sdn-topo .noivos, body.custom-fonte1-3 .sdn-titulo-pagina {font-size: 57px}
+  body.custom-fonte1-3 .sdn-topo .data {font-size: 38px}
+
+  body.custom-fonte1-4 .sdn-topo .noivos, body.custom-fonte1-4 .sdn-titulo-pagina {font-size: 56px}
+  body.custom-fonte1-4 .sdn-topo .data {font-size: 38px}
+
+  body.custom-fonte1-5 .sdn-topo .noivos, body.custom-fonte1-5 .sdn-titulo-pagina {font-size: 55px}
+  body.custom-fonte1-5 .sdn-topo .data {font-size: 40px}
+
+  body.custom-fonte1-6 .sdn-topo .noivos, body.custom-fonte1-6 .sdn-titulo-pagina {font-size: 43px}
+  body.custom-fonte1-6 .sdn-topo .data {font-size: 33px}
+
+  body.custom-fonte1-7 .sdn-topo .noivos, body.custom-fonte1-7 .sdn-titulo-pagina {font-size: 63px}
+  body.custom-fonte1-7 .sdn-topo .data {font-size: 40px}
+
+  body.custom-fonte1-8 .sdn-topo .noivos, body.custom-fonte1-8 .sdn-titulo-pagina {font-size: 47px}
+  body.custom-fonte1-8 .sdn-topo .data {font-size: 39px}
+
+  body.custom-fonte1-9 .sdn-topo .noivos, body.custom-fonte1-9 .sdn-titulo-pagina {font-size: 40px}
+  body.custom-fonte1-9 .sdn-topo .data {font-size: 35px}
+
+  body.custom-fonte1-10 .sdn-topo .noivos, body.custom-fonte1-10 .sdn-titulo-pagina {font-size: 50px}
+  body.custom-fonte1-10 .sdn-topo .data {font-size: 33px}
+
+}
+
+@media (min-width: 992px) {
+
+  /* icones */
+
+  .sdn-titulo-pagina:before, .sdn-titulo-pagina:after {font-size: 40px}
+
+  body.custom-icone1-1 .sdn-topo .noivos,
+  body.custom-icone1-2 .sdn-topo .noivos,
+  body.custom-icone1-3 .sdn-topo .noivos,
+  body.custom-icone1-4 .sdn-topo .noivos,
+  body.custom-icone1-5 .sdn-topo .noivos,
+  body.custom-icone1-6 .sdn-topo .noivos,
+  body.custom-icone1-7 .sdn-topo .noivos,
+  body.custom-icone1-8 .sdn-topo .noivos,
+  body.custom-icone1-9 .sdn-topo .noivos,
+  body.custom-icone1-10 .sdn-topo .noivos {width: 970px}
+
+  body.custom-icone1-1 .sdn-titulo-pagina:before, 
+  body.custom-icone1-1 .sdn-titulo-pagina:after {font-size: 28px}
+
+  body.custom-icone1-2 .sdn-topo .noivos:before {font-size: 130px}
+  body.custom-icone1-2 .sdn-topo .noivos:after {font-size: 130px}
+
+  body.custom-icone1-3 .sdn-topo .noivos:before {font-size: 130px}
+  body.custom-icone1-3 .sdn-topo .noivos:after {font-size: 130px}
+
+  body.custom-icone1-4 .sdn-topo .noivos:before {font-size: 130px}
+  body.custom-icone1-4 .sdn-topo .noivos:after {font-size: 130px}
+
+  body.custom-icone1-5 .sdn-topo .noivos:before {font-size: 130px; left: 30px}
+  body.custom-icone1-5 .sdn-topo .noivos:after {font-size: 130px; right: 30px}
+
+  body.custom-icone1-6 .sdn-topo .noivos:before {font-size: 130px; left: 50px}
+  body.custom-icone1-6 .sdn-topo .noivos:after {font-size: 130px; right: 50px}
+  body.custom-icone1-6 .sdn-titulo-pagina:before, 
+  body.custom-icone1-6 .sdn-titulo-pagina:after {font-size: 12px}
+
+  body.custom-icone1-7 .sdn-topo .noivos:before {font-size: 65px; left: 30px}
+  body.custom-icone1-7 .sdn-topo .noivos:after {font-size: 65px; right: 30px}
+  body.custom-icone1-7 .sdn-titulo-pagina:after {font-size: 30px}
+
+  body.custom-icone1-8 .sdn-topo .noivos:before {font-size: 115px; left: 50px; top: 25px}
+  body.custom-icone1-8 .sdn-topo .noivos:after {font-size: 115px; right: 50px; top: 25px}
+
+  body.custom-icone1-9 .sdn-topo .noivos:before {left: 30px}
+  body.custom-icone1-9 .sdn-topo .noivos:after {right: 30px}
+
+  body.custom-icone1-10 .sdn-topo .noivos:before {font-size: 130px; left: 50px}
+  body.custom-icone1-10 .sdn-topo .noivos:after {font-size: 130px; right: 50px}
+  body.custom-icone1-10 .sdn-titulo-pagina:after {font-size: 47px}
+
+}
+
+@media (min-width: 1200px) {
+
+  /* icones */
+
+  body.custom-icone1-1 .sdn-topo .noivos,
+  body.custom-icone1-2 .sdn-topo .noivos,
+  body.custom-icone1-3 .sdn-topo .noivos,
+  body.custom-icone1-4 .sdn-topo .noivos,
+  body.custom-icone1-5 .sdn-topo .noivos,
+  body.custom-icone1-6 .sdn-topo .noivos,
+  body.custom-icone1-7 .sdn-topo .noivos,
+  body.custom-icone1-8 .sdn-topo .noivos,
+  body.custom-icone1-9 .sdn-topo .noivos,
+  body.custom-icone1-10 .sdn-topo .noivos {width: 1170px}
+
+  body.custom-icone1-2 .sdn-topo .noivos:before {left: 40px}
+  body.custom-icone1-2 .sdn-topo .noivos:after {right: 40px}
+
+}
+
+
+/* icones/font */
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../../../arquivos/noivos.casar.com/fonts/sdn-tema39-icones.eot?wlnqil');
+  src:  url('../../../arquivos/noivos.casar.com/fonts/sdn-tema39-icones.eot?wlnqil#iefix') format('embedded-opentype'),
+    url('../../../arquivos/noivos.casar.com/fonts/sdn-tema39-icones.ttf?wlnqil') format('truetype'),
+    url('../../../arquivos/noivos.casar.com/fonts/sdn-tema39-icones.woff?wlnqil') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sdn-topo .noivos:before, .sdn-topo .noivos:after,
+.sdn-titulo-pagina:before, .sdn-titulo-pagina:after {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

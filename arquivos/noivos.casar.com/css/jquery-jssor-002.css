@@ -1,0 +1,21 @@
+.slider-wrap {position: relative; margin: 0 auto; top: 0px; left: 0px; width: 980px; height: 520px; overflow: hidden; visibility: hidden}
+.slider-wrap > .loading {position: absolute; top: 0px; left: 0px; text-align: center; background-color: rgba(0,0,0,0.7)}
+.slider-wrap > .loading > img {margin-top: -19px; position: relative; top: 50%; width: 38px; height: 38px}
+.slider-wrap > .slides {cursor:default; position:relative; top:0px; left:0px; width:980px; height:520px; overflow:hidden;}
+.slider-wrap .caption {color: #fff; font-family: 'Lato', sans-serif; font-size: 18px; left: 10px; line-height: 1.2; margin: auto; position: absolute; right: 10px; text-align: center; text-shadow: 1px 1px #333; top: 10px; width: auto; z-index: 0}
+
+.slider-wrap .thumb-navigator {bottom: 0px; height: 64px; left: 0px; position: absolute; width: 980px}
+.slider-wrap .thumb-navigator .p {border: 2px solid rgba(255,255,255,.5); box-sizing: border-box; left: 0; height:50px; position: absolute; top: 0; width: 50px}
+.slider-wrap .thumb-navigator .t {border: none; height: 100%; left: 0; opacity: .6; position: absolute; top: 0; width: 100%}
+.slider-wrap .thumb-navigator .p:hover {border-color: rgba(255,255,255,.6)}
+.slider-wrap .thumb-navigator .pav, .thumb-navigator .p:hover.pdn {border-color: #fff}
+.slider-wrap .thumb-navigator .pav .t, .thumb-navigator .p:hover.pdn .t {opacity: 1}
+
+.slider-wrap .arrow {cursor:pointer; display: block; height: 55px; position: absolute; top: 0px; width: 55px}
+.slider-wrap .arrow .viewbox {position: absolute; top: 0; left: 0; width: 100%; height: 100%}
+.slider-wrap .arrow .a {fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 960}
+.slider-wrap .arrow:hover {opacity: 0.8}
+.slider-wrap .arrow.arrowdn {opacity: 0.5}
+.slider-wrap .arrow.arrowds {opacity: 0.3; pointer-events: none}
+.slider-wrap .arrow-left {left: 25px}
+.slider-wrap .arrow-right {right: 25px}

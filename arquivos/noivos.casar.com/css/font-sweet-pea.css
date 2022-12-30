@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Sweet Pea';
+  src: url('../../../arquivos/noivos.casar.com/fonts/sweet-pea2.eot'); /* IE9 Compat Modes */
+  src: url('../../../arquivos/noivos.casar.com/fonts/sweet-pea2.eot?#iefix') format('embedded-opentype'),
+       url('../../../arquivos/noivos.casar.com/fonts/sweet-pea2.woff') format('woff'),
+       url('../../../arquivos/noivos.casar.com/fonts/sweet-pea2.ttf')  format('truetype');
+}

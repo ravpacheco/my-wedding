@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Sintony';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../arquivos/fonts.gstatic.com/s/sintony/v13/XoHm2YDqR7-98cVUETMtvw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Sintony';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../../arquivos/fonts.gstatic.com/s/sintony/v13/XoHj2YDqR7-98cVUGYgIr9AJlg.ttf) format('truetype');
+}
